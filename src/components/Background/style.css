@@ -1,0 +1,25 @@
+
+  .background {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url("https://images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80") !important;
+    /* this is the cloud image */
+    /* background-image: url("https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2012/05/Screen-shot-2012-05-13-at-11.29.09-PM.png"); */
+    background-size: cover !important;
+    z-index: -1;
+  }
+
+  .background .water {
+    position: absolute !important;
+    background-image: url("https://images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80") !important;
+    background-size: cover !important;
+    top:0 !important;
+    left:0!important;
+    height: 100% !important;
+    width: 100% !important;
+    filter: url("#turbulence") !important;
+    z-index: 1;
+  }

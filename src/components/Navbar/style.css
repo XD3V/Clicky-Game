@@ -1,0 +1,16 @@
+.navBar
+    {
+        display: flex;
+        margin-bottom:3%;
+        background-color: #4080a8de;
+        margin-right: 1%;
+        font-size: 150%;
+    }
+
+
+.navBarText
+    {
+        margin-left: 10%;
+        float: left;
+        font-size: 100%;
+    }
