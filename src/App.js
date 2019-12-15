@@ -69,6 +69,7 @@ class App extends Component {
         {/* <Navbar /> */}
         {cardsList.map(card =>
           <Card
+            className="col-4"
             key={card.id}
             id={card.id}
             // deal={this.state.cards.deal}
